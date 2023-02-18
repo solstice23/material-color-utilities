@@ -27,7 +27,7 @@
   },
   "scripts": {
     "postinstall": "npm run build",
-    "remove-build": "rm -rf dist",
+    "remove-build": "del dist",
     "build": "npm run remove-build && tsc",
     "watch": "tsc -w",
     "prepublishOnly": "npm run build"
