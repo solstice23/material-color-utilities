@@ -26,6 +26,14 @@ export * from './quantize/quantizer_map.js';
 export * from './quantize/quantizer_wsmeans.js';
 export * from './quantize/quantizer_wu.js';
 export * from './scheme/scheme.js';
+export * from './scheme/scheme_neutral.js';
+export * from './scheme/scheme_expressive.js';
+export * from './scheme/scheme_monochrome.js';
+export * from './scheme/scheme_tonal_spot.js';
+export * from './scheme/scheme_vibrant.js';
+export * from './dynamiccolor/material_dynamic_colors.js';
+
+export * from './scheme/variant.js';
 export * from './scheme/scheme_android.js';
 export * from './score/score.js';
 export * from './utils/color_utils.js';
